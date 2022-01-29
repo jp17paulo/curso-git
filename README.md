@@ -1,3 +1,8 @@
+# Introdução ao controle de versões com Git
+``` bash 
+  git init
+
+```
 # O ciclo básico do Git
 #### Verificar arquivos que estão sendo controlados pelo Git
 ``` bash 
@@ -30,12 +35,6 @@
   git config --global user.name "João Paulo"
   git config --global user.email "joaopaulo@gmail.com"
 ```
-
-#### 
-``` bash 
-
-```
-
 #  Sincronização dos dados com o repositório
 ``` bash
   
