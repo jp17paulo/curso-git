@@ -36,11 +36,21 @@
   git config --global user.email "joaopaulo@gmail.com"
 ```
 #  Sincronização dos dados com o repositório
+#### Verificar o histórico de commits
 ``` bash
-  
+  git log 
+```
+
+#### Mostra além dos commits quais arquivos foram alterados
+``` bash
+  git whatchanged
+```
+
+#### Mostra o que foi alterado
+``` bash
+  git whatchanged -p
 ```
 # Organização do trabalho com branches
-- Criei o repositório e rodei os comandos
 
 ``` bash
   
