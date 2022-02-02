@@ -50,6 +50,15 @@
 ``` bash
   git whatchanged -p
 ```
+#### Mostra os repositórios remotos
+``` bash
+  git remote
+  git remote add origin https://github.com/jp17paulo/curso-git.git
+```
+#### Enviando para o repositório remoto
+``` bash
+  git push origin master
+```
 # Organização do trabalho com branches
 
 ``` bash
