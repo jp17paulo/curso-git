@@ -1,9 +1,9 @@
-# Introdução ao controle de versões com Git
+# 1 - Introdução ao controle de versões com Git
 ``` bash 
   git init
 
 ```
-# O ciclo básico do Git
+# 2 - O ciclo básico do Git
 #### Verificar arquivos que estão sendo controlados pelo Git
 ``` bash 
   git ls-files
@@ -35,7 +35,7 @@
   git config --global user.name "João Paulo"
   git config --global user.email "joaopaulo@gmail.com"
 ```
-#  Sincronização dos dados com o repositório
+# 3 -  Sincronização dos dados com o repositório
 #### Verificar o histórico de commits
 ``` bash
   git log 
@@ -59,40 +59,44 @@
 ``` bash
   git push origin master
 ```
-# Organização do trabalho com branches
+#### Clonando um repositório
+``` bash
+  git clone https://github.com/jp17paulo/curso-git.git
+```
+# 4 - Organização do trabalho com branches
 
 ``` bash
   
 ```
 
-# Resolução de conflitos
+# 5 - Resolução de conflitos
 ``` bash
  
 ```
 
-# Boas práticas no uso do Git
+# 6 - Boas práticas no uso do Git
 ``` bash
 
 ```
 
-# Controle avançado de alterações
+# 7 - Controle avançado de alterações
 ``` bash
 
 ```
 
-# Contribuição com opensource, técnicas avançadas e produtividade com o Git
-``` bash
-
-
-```
-
-# Fazendo merges avançados com Cherry Pick
+# 8 - Contribuição com opensource, técnicas avançadas e produtividade com o Git
 ``` bash
 
 
 ```
 
-#  Usando Git através de interfaces visuais
+# 9 - Fazendo merges avançados com Cherry Pick
+``` bash
+
+
+```
+
+# 10 - Usando Git através de interfaces visuais
 ``` bash
 
 
