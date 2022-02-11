@@ -65,8 +65,29 @@
 ```
 # 4 - Organização do trabalho com branches
 
+#### Informa que a branch local design está ligada a branch remota design 
 ``` bash
-  
+  git push -u origin design
+```
+
+#### Mostra as branchs locais 
+``` bash
+  git branch
+```
+
+#### Mostra as branchs remotas 
+``` bash
+  git branch -r
+```
+
+#### Cria uma branch local design ligada a branch remota design
+``` bash
+  git branch -t design origin/design
+```
+
+#### Já entende que está atualizada com a branch remota
+``` bash
+  git checkout design
 ```
 
 # 5 - Resolução de conflitos
