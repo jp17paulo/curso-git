@@ -65,8 +65,29 @@
 ```
 # 4 - Organização do trabalho com branches
 
+#### Criando branch
 ``` bash
-  
+   git branch design
+```
+
+#### Enviando para o repositório remoto
+``` bash
+   git push -u origin design
+```
+
+#### Mostra branchs locais
+``` bash
+  git branch
+```
+
+#### Mostra branchs remotas
+``` bash
+  git branch -r
+```
+
+#### Cria uma branch local já trackeada com a branch remota
+``` bash
+  git branch -t design origin/design
 ```
 
 # 5 - Resolução de conflitos
