@@ -91,10 +91,11 @@
 ```
 
 # 5 - Resolução de conflitos
+#### Atualiza o arquivo com alterações no mesmo de usuários diferentes (merge)
+###### Obs: Caso as alterações tenham sido efetuadas no mesmo local irá aparecer mensagem de conflito ainda e o mesmo deverá ser resolvido, escolhendo no arquivo o que deverá ser mantido.
 ``` bash
- 
+   git pull
 ```
-
 # 6 - Boas práticas no uso do Git
 ``` bash
 
