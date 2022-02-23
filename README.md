@@ -97,6 +97,29 @@
    git pull
 ```
 # 6 - Boas práticas no uso do Git
+
+#### Cria e já entra na branch
+``` bash
+   git checkout -b desenvolvimento
+```
+
+#### Pega o conteúdo da branch desenvolvimento e incorpora na branch atual
+``` bash
+   git merge desenvolvimento
+```
+
+#### Atualiza a branch desenvolvimento com base na branch master
+``` bash
+   git rebase master desenvolvimento
+```
+
+#### Caso tenha conflitos, resolver, após resolver executar os comandos:
+``` bash
+   git add proposta_1.html
+   git rebase --continue
+```
+
+####
 ``` bash
 
 ```
