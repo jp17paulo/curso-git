@@ -120,25 +120,133 @@
 ```
 
 # 7 - Controle avançado de alterações
+#### Retorna a branch para o estado anterior
+``` bash
+  git checkout proposta_1.html
+```
+#### Altera o estado atual da branch para o commit mais recente
+``` bash
+  git reset HEAD proposta_1.html
+```
+#### Desfazer um commit 
+``` bash
+  git reset b1a8fc958a5d9ed72249426071ae08d76dfe49f9
+```
+#### Desfazer alterações de um commit antigo (isso vai gerar um novo log referente as alterações descartadas)
+``` bash
+  git revert 2d5cb01e44cbcebaabe743d338e94a1ce6567413
+```
+
+#### Armazena as informações não comitadas
+``` bash
+  git stash
+```
+
+#### Exibe o conteúdo do stash
+``` bash
+  git stash list
+```
+
+#### Retoma o último registro do stash
+``` bash
+  git stash pop
+```
+
+#### Retoma um registro específico do stash
+``` bash
+  git stash apply stash@{0}
+```
+
+#### Apagar stash
+``` bash
+  git stash drop
+```
+
+#### Git bisect para procurar commits a serem desfeitos
+``` bash
+  git bisect start
+  git bisect bad HEAD
+  git bisect good b1a8fc958a5d9ed72249426071ae08d76dfe49f9
+
+```
+
+#### Vai retornando commits (Até mostrar a alteração que estamos procurando)
+``` bash
+  git bisect bad
+```
+
+#### Avança commits (Até mostrar a alteração que estamos procurando)
+``` bash
+  git bisect good
+```
+# 8 - Contribuição com opensource, técnicas avançadas e produtividade com o Git
+
+####
 ``` bash
 
 ```
 
-# 8 - Contribuição com opensource, técnicas avançadas e produtividade com o Git
+####
 ``` bash
 
+```
+
+####
+``` bash
+
+```
+
+####
+``` bash
+
+```
+
+####
+``` bash
 
 ```
 
 # 9 - Fazendo merges avançados com Cherry Pick
+
+####
 ``` bash
 
+```
+
+####
+``` bash
+
+```
+
+####
+``` bash
+
+```
+
+####
+``` bash
 
 ```
 
 # 10 - Usando Git através de interfaces visuais
+
+####
 ``` bash
 
+```
+
+####
+``` bash
+
+```
+
+####
+``` bash
+
+```
+
+####
+``` bash
 
 ```
 
