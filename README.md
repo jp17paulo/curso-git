@@ -119,11 +119,6 @@
    git rebase --continue
 ```
 
-####
-``` bash
-
-```
-
 # 7 - Controle avançado de alterações
 ``` bash
 
