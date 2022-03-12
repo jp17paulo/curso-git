@@ -181,6 +181,32 @@
 ```
 # 8 - Contribuição com opensource, técnicas avançadas e produtividade com o Git
 
+#### Criar alias
+##### Obs: No arquivo ficará assi:
+###### [alias]
+###### st = status
+###### co = checkout
+
+###### envia = !git checkout master && git pull checkout desenvolvimento && git rebase master && git checkout master && git merge desenvolvimento && git push
+``` bash
+  vim ~/ .gitconfig
+```
+
+####
+``` bash
+
+```
+
+####
+``` bash
+
+```
+
+####
+``` bash
+
+```
+
 ####
 ``` bash
 
