@@ -182,7 +182,7 @@
 # 8 - Contribuição com opensource, técnicas avançadas e produtividade com o Git
 
 #### Criar alias
-##### Obs: No arquivo ficará assi:
+##### Obs: No arquivo ficará assim:
 ###### [alias]
 ###### st = status
 ###### co = checkout
@@ -192,46 +192,56 @@
   vim ~/ .gitconfig
 ```
 
-####
+#### Ver um commit por linha
 ``` bash
+  git log --pretty=oneline
+```
+
+#### Não mostra a data do commit
+``` bash
+  git log --pretty=short
+```
+
+#### Também mostra o autor do commit original
+``` bash
+   git log --pretty=full
+```
+
+#### Personalizando o git log
+``` bash
+   git log --pretty='%an realizou o commit %h: %s'
+```
+
+#### Mostra a diferença nos arquivos alterados
+``` bash
+   git log -p
+```
+
+#### Mostra a diferença nos arquivos alterados de uma forma mais resumida
+``` bash
+   git log --stat
 
 ```
 
-####
+#### Mostra alterações do repoitório remoto
 ``` bash
-
+   git fetch 
 ```
 
-####
+#### Mostra a diferença entre as branchs
 ``` bash
-
+   git diff desenvolvimento/master
 ```
 
-####
+#### Incluindo alterações da branch desenvolvimento para a master
 ``` bash
-
+    git merge desenvolvimento/master
 ```
 
-####
+#### Mostra graficamente os caminhos do arquivo
 ``` bash
-
+   git log --graph
 ```
-
-####
-``` bash
-
-```
-
-####
-``` bash
-
-```
-
-####
-``` bash
-
-```
-
 # 9 - Fazendo merges avançados com Cherry Pick
 
 ####
