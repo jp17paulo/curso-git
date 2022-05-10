@@ -244,45 +244,15 @@
 ```
 # 9 - Fazendo merges avançados com Cherry Pick
 
-####
+#### Subindo commit específico
 ``` bash
-
+   git cherry-pick a0e5b6c
 ```
-
-####
-``` bash
-
-```
-
-####
-``` bash
-
-```
-
-####
-``` bash
-
-```
-
 # 10 - Usando Git através de interfaces visuais
 
-####
+#### Ferramentas gráficas
 ``` bash
-
-```
-
-####
-``` bash
-
-```
-
-####
-``` bash
-
-```
-
-####
-``` bash
+   git-cola
 
 ```
 
